@@ -65,11 +65,13 @@ $(document).on("submit", "#formulario_contacto", function(e) {
 // funcion abrir menu
 $("#abrir_menu").click(function(){
     $("#menu_responsivo").addClass("abrir");
+    $("body").css("overflow", "hidden");
 });
 
 // funcion cerrar menu
 $("#cerrar_menu").click(function(){
     $("#menu_responsivo").removeClass("abrir");
+    $("body").css("overflow", "auto");
 });
 
 //  funcion scroll

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/movil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+
+    <title>WebX</title>
+</head>
+
+<body>
+    
+    <header class="contactos">
+        <div class="contactos_contenido ancho ">
+            <div class="datos_contactos">
+                <a href="#" class="dato_contacto">
+                    <div class="icono_contacto">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="texto_contacto">
+                        <p>example@example.com</p>
+                    </div>
+                </a>
+                <div href="#" class="dato_contacto">
+                    <div class="icono_contacto">
+                        <i class="fa-solid fa-location-pin"></i>
+                    </div>
+                    <div class="texto_contacto">
+                        <p>24/5 New Helhi, India.</p>
+                    </div>
+                </div>
+                <a href="#" class="dato_contacto">
+                    <div class="icono_contacto">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="texto_contacto">
+                        <p>+880 320 432 242</p>
+                    </div>
+                </a>
+            </div>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- menu escritorio -->
+    <section class="menu">
+        <div class="conte_menu ancho">
+            <figure class="logo">
+                <img src="assets/images/logo.png" alt="">
+            </figure>
+            <nav class="partes_menu">
+                <ul class="menu_lista">
+                    <li><a href="index.html" class="activo">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="#" class="btn-abrir-modal">Contactanos</a></li>
+                </ul>
+                <a href="#" class="btn_buscar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </nav>
+        </div>
+    </section>
+
+    <!-- menu movil -->
+    <section class="menu_movil">
+        <div class="conte_menu_movil ancho margen">
+            <div class="icono_letra">
+                <a href="index.html">WEBX</a>
+            </div>
+            <div class="btn_menu" id="abrir_menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </section>
+    <section class="menu_responsivo" id="menu_responsivo">
+        <div class="cerrar_menu" id="cerrar_menu">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul class="menu_responsivo_lista">
+            <li><a href="index.html" class="activo2">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="portafolio.html">Portafolio</a></li>
+            <li><a href="#" class="btn-abrir-modal">Contactanos</a></li>
+        </ul>
+    </section>
+    <!-- responsive slide -->
+    <section class="contenedor_slide">
+        <ul class="rslides">
+            <li>
+                <img src="assets/images/slider-image1.jpg" alt="">
+                <div class="filtro">
+                    <div class="contenedor_texto_slide ancho margen wow animate__animated animate__bounceInLeft">
+                        <h2>Analyze and Find The Perfect IT Solution</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Numquam, ipsam molestiae
+                            pariatur eveniet aliquid iure eaque.
+                        </p>
+                        <a href="#" class="btn_contactar btn-abrir-modal">Contact Today</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="assets/images/slider-image2.jpg" alt="">
+                <div class="filtro">
+                    <div class="contenedor_texto_slide2 ancho margen wow animate__animated animate__bounceInLeft">
+                        <h2>Succesful Big Data Solutions in The Tech Industry</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Numquam, ipsam molestiae
+                            pariatur eveniet aliquid iure eaque.
+                        </p>
+                        <a href="#" class="btn_contactar btn-abrir-modal">Contact Today</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- servicios con transiciones -->
+    <section class="servicios">
+        <div class="conte_servicios ancho margen">
+            <header class="encabezado_seccion">
+                <span class="wow animate__animated animate__bounce">SERVICES</span>
+                <h2 class="wow animate__animated animate__bounceInLeft">Provider Exclusive Services</h2>
+                <div class="decorador  wow animate__animated animate__shakeX">
+                    <div class="linea_larga"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                </div>
+            </header>
+
+            <div class="fichas_servicios">
+                <article class="ficha  wow animate__animated animate__backInDown">
+                    <div class="icono_ficha">
+                        <i class="fa-solid fa-computer"></i>
+                    </div>
+                    <div class="conte_ficha">
+                        <h3>IT Consultancy</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Fugit, placeat.
+                        </p>
+                        <a href="#">Explore <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="ficha wow animate__animated animate__backInDown">
+                    <div class="icono_ficha">
+                        <i class="fa-solid fa-pen-ruler"></i>
+                    </div>
+                    <div class="conte_ficha">
+                        <h3>Digital Services</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Fugit, placeat.
+                        </p>
+                        <a href="#">Explore <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="ficha wow animate__animated animate__backInDown">
+                    <div class="icono_ficha">
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                    </div>
+                    <div class="conte_ficha">
+                        <h3>Experience Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Fugit, placeat.
+                        </p>
+                        <a href="#">Explore <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="ficha wow animate__animated animate__backInDown">
+                    <div class="icono_ficha">
+                        <i class="fa-solid fa-fingerprint"></i>
+                    </div>
+                    <div class="conte_ficha">
+                        <h3>Cyber Security</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Fugit, placeat.
+                        </p>
+                        <a href="#">Explore <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- modal -->
+    <section class="modal" id="modal">
+        <div class="contenidomodal">
+            <div class="info_modal ancho ">
+                <div class="cerrar_modal">
+                    <a href="#" id="btn-cerrar-modal" class="btn_cerrar_modal">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </a>
+                </div>
+
+                <div class="conte_modal_formulario">
+                    <div class="lado_izquierdo_formulario ">
+                        <h2>Contact Info</h2>
+                        
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Address</h3>
+                                <p>3 Belmont, Cumberland, United Kingdom</p>
+                            </div>
+                        </div>
+
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-solid fa-phone-flip"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Phones</h3>
+                                <p>+34783547620</p>
+                                <p>+17603131449</p>
+                            </div>
+                        </div>
+
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Email</h3>
+                                <p>@example.com</p>
+                                <p>@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-solid fa-business-time"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Opening Hours</h3>
+                                <p>Mon-Fri: 10:00-20:00</p>
+                                <p>Sat-Sun: 10:00-15:00</p>
+                            </div>
+                        </div>
+
+                   </div>
+                    <div class="lado_derecho_formulario">
+                        <div class="encabezado_seccion_izquierda">
+                            <span>CONTACT US</span>
+                            <h2>Get A Free Consultancy</h2>
+                            <div class="decorador_izquierdo">
+                                <div class="linea_larga"></div>
+                                <div class="punto"></div>
+                                <div class="punto"></div>
+                                <div class="punto"></div>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Qui quis harum perferendis
+                                eligendi consequatur saepe
+                                odit, non incidunt.
+                            </p>
+                        </div>
+                        <form action="" id="formulario_contacto" class="contenido_formulario">
+                            
+                            <div class="bloque_inputs">
+                                <input type="text" id="nombre" placeholder="Your Name" class="input_control">
+                                <input type="text" id="correo" placeholder="Your Email" class="input_control">
+                            </div>
+
+                            <div class="bloque_inputs">
+                                <input type="text" id="telefono" placeholder="Phone Number" class="input_control">
+                                <input type="text" id="asunto" placeholder="Subject" class="input_control">
+                            </div>
+
+                            <div class="bloque_inputs">
+                                <textarea id="mensaje" placeholder="Your Message" class="textarea_control"></textarea>
+                            </div>
+
+                            <button type="submit" id="btn-enviar-formulario" class="btn_enviar_formulario">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- scroll -->
+    <a href="#" class="btn_scroll" id="btn-up">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
+    <footer class="pie_pagina">
+        <div class="conte_pie ancho margen">
+            <figure class="logo_pie">
+              <img src="assets/images/logo-transparent.png" alt=""> 
+            </figure>
+            <div class="iconos_pie">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    
+
+
+
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/responsiveslides.js"></script>
+    <script src="js/funciones.js"></script>
+
+
+</body>
+
+</html>

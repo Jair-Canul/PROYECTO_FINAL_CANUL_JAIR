@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/movil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+
+    <title>WebX - Nosotros</title>
+</head>
+<body>
+    <header class="contactos">
+        <div class="contactos_contenido ancho "> 
+            <div class="datos_contactos">
+                <a href="#" class="dato_contacto">
+                    <div class="icono_contacto">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="texto_contacto">
+                        <p>example@example.com</p>
+                    </div>
+                </a>
+                <div href="#" class="dato_contacto">
+                    <div class="icono_contacto">
+                        <i class="fa-solid fa-location-pin"></i>
+                    </div>
+                    <div class="texto_contacto">
+                        <p>24/5 New Helhi, India.</p>
+                    </div>
+                </div>
+                <a href="#" class="dato_contacto">
+                    <div class="icono_contacto">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="texto_contacto">
+                        <p>+880 320 432 242</p>
+                    </div>
+                </a>
+            </div>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+        </div>
+    </header>
+    <section class="menu">
+        <div class="conte_menu ancho">
+            <figure class="logo">
+                <img src="assets/images/logo.png" alt="">
+            </figure>
+            <nav class="partes_menu">
+                <ul class="menu_lista">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html" class="activo">Nosotros</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="#" class="btn-abrir-modal">Contactanos</a></li>
+                </ul>
+                <a href="#" class="btn_buscar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a> 
+            </nav>   
+        </div>
+
+    </section>
+    <section class="menu_movil">
+        <div class="conte_menu_movil ancho margen">
+            <div class="icono_letra">
+                <a href="index.html">WEBX</a>
+            </div>
+            <div class="btn_menu" id="abrir_menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>       
+    </section>
+    <section class="menu_responsivo" id="menu_responsivo">
+        <div class="cerrar_menu" id="cerrar_menu">
+                <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul class="menu_responsivo_lista">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html" class="activo2">Nosotros</a></li>
+            <li><a href="portafolio.html">Portafolio</a></li>
+            <li><a href="#" class="btn-abrir-modal">Contactanos</a></li>
+        </ul>
+    </section>
+    
+    <!-- quienes somos -->
+
+    <section class="quienes">
+        <div class="conte_quienes ancho margen">
+            <figure class="imagen_quienes cuadro  wow animate__animated animate__backInLeft">
+                <img src="assets/images/about-us.png" alt="">
+            </figure>
+            <div class="info_quienes  wow animate__animated animate__backInRight">
+                <header class="encabezado_seccion_izquierda">
+                    <span>WHO WE ARE</span>
+                    <h2>Know About Us</h2>
+                    <div class="decorador_izquierdo">
+                        <div class="linea_larga"></div>
+                        <div class="punto"></div>
+                        <div class="punto"></div>
+                        <div class="punto"></div>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Qui quis harum perferendis
+                        eligendi consequatur saepe
+                        odit, non incidunt.
+                    </p>
+                </header>
+                <div class="conte_info_quienes">
+                    <article class="ficha_quienes">
+                        <div class="icono_ficha_quienes">
+                            <i class="fa-solid fa-chart-column"></i>
+                        </div>
+                        <div class="texto_ficha">
+                            <h3>Best Successfully Company With Satisfied All Of Our Customers</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="ficha_quienes">
+                        <div class="icono_ficha_quienes">
+                            <i class="fa-regular fa-id-badge"></i>
+                        </div>
+                        <div class="texto_ficha">
+                            <h3>Best Successfully Company With Satisfied All Of Our Customers</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- mision vision con acordeón -->
+    <section class="mision_vision">
+        <header class="encabezado_seccion margen ancho  wow animate__animated animate__backInUp ">
+            <span>MISSION & VISSION</span>
+            <h2>Main Mission and Unique Vission</h2>
+            <div class="decorador">
+                <div class="linea_larga"></div>
+                <div class="punto"></div>
+                <div class="punto"></div>
+                <div class="punto"></div>
+            </div>
+        </header>
+        <div class="acordeon ancho  wow animate__animated animate__flipInX">
+            <div class="acordeon_titulo">
+                <h2><i class="fa-solid fa-arrow-right"></i>What is our Mission?</h2>
+                <i class="flecha fa-solid fa-angle-down"></i>
+            </div>
+            <article class="acordeon_contenido  wow animate__animated animate__flipInX">
+                <div class="fila">
+                    <figure class="imagen_acordeon">
+                        <img src="assets/images/mision.jpg" alt="">
+                    </figure>
+                    <div class="info_acordeon_contenido">
+                        <span>MISSION</span>
+                        <h2>WORLD TOP IT AGENCY IS OUR MAIN MISSION</h2>
+                        <p>
+                            Dramatically enable economically sound
+                            information for mission-critical deliverables.
+                            Completely impact resource-leveling systems
+                            vis-a-vis clie focused leadership for real
+                            methodologies supported.
+                        </p>
+                    </div>
+                </div>
+            </article>
+    
+        </div>
+        <div class="acordeon ancho wow animate__animated animate__flipInX">
+            <div class="acordeon_titulo">
+                <h2><i class="fa-solid fa-arrow-right"></i>What is our Mission?</h2>
+                <i class="flecha fa-solid fa-angle-down"></i>
+            </div>
+            <article class="acordeon_contenido wow animate__animated animate__flipInX">
+                <div class="fila">
+                    <figure class="imagen_acordeon">
+                        <img src="assets/images/vision.jpg" alt="">
+                    </figure>
+                    <div class="info_acordeon_contenido">
+                        <span>VISSION</span>
+                        <h2>WORLD TOP IT AGENCY IS OUR MAIN MISSION</h2>
+                        <p>
+                            Dramatically enable economically sound
+                            information for mission-critical deliverables.
+                            Completely impact resource-leveling systems
+                            vis-a-vis clie focused leadership for real
+                            methodologies supported.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <section class=" parallax">
+        <div class="filtro2"></div>
+        <div class="contenido_parallax ancho  wow animate__animated animate__zoomIn">
+            <div class="texto_parallax">
+                <span>// We Carry More Thank Just Good Coding Skills</span>
+                <h2>Let's Build Your Website!</h2>
+            </div>
+            <a href="#" class="btn_parallax btn-abrir-modal">Contact Us</a>
+        </div>
+    </section>
+    <br>
+    <section class="multimedia">
+        <div class="contenido_multimedia ancho margen">
+            <div class="info_texto_video  wow animate__animated animate__backInLeft">
+                <h3>Find a evolved and strong connection with software and hardware communication</h3>
+            </div>
+            <div class="video forma  wow animate__animated animate__backInRight">
+                <iframe src="https://www.youtube.com/embed/9NwTc7WOHqM?si=N5_idU4zOUV8hXJn" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- modal -->
+    <section class="modal" id="modal">
+        <div class="contenidomodal">
+            <div class="info_modal ancho ">
+                <div class="cerrar_modal">
+                    <a href="#" id="btn-cerrar-modal" class="btn_cerrar_modal">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </a>
+                </div>
+
+                <div class="conte_modal_formulario">
+                    <div class="lado_izquierdo_formulario ">
+                        <h2>Contact Info</h2>
+                        
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Address</h3>
+                                <p>3 Belmont, Cumberland, United Kingdom</p>
+                            </div>
+                        </div>
+
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-solid fa-phone-flip"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Phones</h3>
+                                <p>+34783547620</p>
+                                <p>+17603131449</p>
+                            </div>
+                        </div>
+
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Email</h3>
+                                <p>@example.com</p>
+                                <p>@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-solid fa-business-time"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Opening Hours</h3>
+                                <p>Mon-Fri: 10:00-20:00</p>
+                                <p>Sat-Sun: 10:00-15:00</p>
+                            </div>
+                        </div>
+
+                   </div>
+                    <div class="lado_derecho_formulario">
+                        <div class="encabezado_seccion_izquierda">
+                            <span>CONTACT US</span>
+                            <h2>Get A Free Consultancy</h2>
+                            <div class="decorador_izquierdo">
+                                <div class="linea_larga"></div>
+                                <div class="punto"></div>
+                                <div class="punto"></div>
+                                <div class="punto"></div>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Qui quis harum perferendis
+                                eligendi consequatur saepe
+                                odit, non incidunt.
+                            </p>
+                        </div>
+                        <form action="" id="formulario_contacto" class="contenido_formulario">
+                            
+                            <div class="bloque_inputs">
+                                <input type="text" id="nombre" placeholder="Your Name" class="input_control">
+                                <input type="text" id="correo" placeholder="Your Email" class="input_control">
+                            </div>
+
+                            <div class="bloque_inputs">
+                                <input type="text" id="telefono" placeholder="Phone Number" class="input_control">
+                                <input type="text" id="asunto" placeholder="Subject" class="input_control">
+                            </div>
+
+                            <div class="bloque_inputs">
+                                <textarea id="mensaje" placeholder="Your Message" class="textarea_control"></textarea>
+                            </div>
+
+                            <button type="submit" id="btn-enviar-formulario" class="btn_enviar_formulario">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- scroll -->
+    <a href="#" class="btn_scroll" id="btn-up">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
+
+    <footer class="pie_pagina">
+        <div class="conte_pie ancho margen">
+            <figure class="logo_pie">
+              <img src="assets/images/logo-transparent.png" alt=""> 
+            </figure>
+            <div class="iconos_pie">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/funciones.js"></script>
+
+
+</body>
+</html>

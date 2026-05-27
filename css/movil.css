@@ -1,0 +1,133 @@
+@media (max-width: 431px) {
+    .contactos {
+        display: none;
+    }
+
+    .conte_menu {
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .partes_menu {
+        display: none
+    }
+
+    .menu_movil {
+        display: block;
+    }
+
+    .menu_responsivo {
+        display: block;
+    }
+    .contenedor_texto_slide{
+        text-align: center;
+    }
+    .contenedor_texto_slide h2,
+    .contenedor_texto_slide2 h2{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .contenedor_texto_slide p,
+    .contenedor_texto_slide2 p{
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+
+    .btn_contactar{
+        display: none;
+    }
+    .rslides_nav{
+        display: none;
+    }
+
+
+    .fichas_servicios{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .ficha{
+        width: 100%;
+    }
+
+    .conte_pie{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .conte_quienes{
+        flex-direction: column-reverse;
+    }
+    .imagen_quienes,
+    .info_quienes{
+        width: 100%;
+    }
+    .fila{
+        flex-direction: column;
+    }
+    .info_acordeon_contenido,
+    .imagen_acordeon{
+        width: 100%;
+    }
+    .contenido_parallax{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contenido_multimedia{
+        flex-direction: column;
+    }
+    .info_texto_video {
+        width: 100%;
+    }
+    .video.forma{
+        width: 100%;
+    }
+    .tab_content{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* modal */
+    .contenidomodal{
+        width: 85%;
+        padding: 15px;
+        max-height: 90%;
+        overflow-y: scroll;
+    }
+    .conte_modal_formulario{
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+    .lado_izquierdo_formulario,
+    .lado_derecho_formulario{
+        width: 100%;
+        padding: 30px 20px;
+        gap: 15px;
+    }
+    .lado_izquierdo_formulario h2{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .ficha_contacto_modal i{
+        font-size: 16px;
+    }
+    .texto_ficha_modal h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .texto_ficha_modal p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .btn_scroll {
+        width: 50px;
+        height: 50px;
+        right: 10px;
+    }
+    .btn_scroll i{
+        font-size: 25px;
+    }
+
+}

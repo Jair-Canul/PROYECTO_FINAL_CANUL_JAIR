@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/carrousel2.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/movil.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+
+    <title>WebX - Portafolio</title>
+</head>
+<body>
+    
+    <header class="contactos">
+        <div class="contactos_contenido ancho "> 
+            <div class="datos_contactos">
+                <a href="#" class="dato_contacto">
+                    <div class="icono_contacto">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="texto_contacto">
+                        <p>example@example.com</p>
+                    </div>
+                </a>
+                <div href="#" class="dato_contacto">
+                    <div class="icono_contacto">
+                        <i class="fa-solid fa-location-pin"></i>
+                    </div>
+                    <div class="texto_contacto">
+                        <p>24/5 New Helhi, India.</p>
+                    </div>
+                </div>
+                <a href="#" class="dato_contacto">
+                    <div class="icono_contacto">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="texto_contacto">
+                        <p>+880 320 432 242</p>
+                    </div>
+                </a>
+            </div>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="menu">
+        <div class="conte_menu ancho">
+            <figure class="logo">
+                <img src="assets/images/logo.png" alt="">
+            </figure>
+            <nav class="partes_menu">
+                <ul class="menu_lista">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="portafolio.html" class="activo">Portafolio</a></li>
+                    <li><a href="#" class="btn-abrir-modal">Contactanos</a></li>
+                </ul>
+                <a href="#" class="btn_buscar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a> 
+            </nav>   
+        </div>
+
+    </section>
+    
+    <section class="menu_movil">
+        <div class="conte_menu_movil ancho margen">
+            <div class="icono_letra">
+                <a href="index.html">WEBX</a>
+            </div>
+            <div class="btn_menu" id="abrir_menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>       
+    </section>
+    <section class="menu_responsivo" id="menu_responsivo">
+        <div class="cerrar_menu" id="cerrar_menu">
+                <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul class="menu_responsivo_lista">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="portafolio.html" class="activo2">Portafolio</a></li>
+            <li><a href="#" class="btn-abrir-modal">Contactanos</a></li>
+        </ul>
+    </section>
+
+    <!-- tabs con fancy box -->
+    <section class="portafolio">
+        <div class="conte_portafolio ancho margen">
+            <header class="encabezado_seccion  wow animate__animated animate__wobble">
+                <span>OUR WORKS</span>
+                <h2>Latest Projects</h2>
+                <div class="decorador">
+                    <div class="linea_larga"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                    <div class="punto"></div>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod
+                    tincidunt consectetuer adipiscing
+                    elit, sed diam nonummy nibh euismod
+                    tincidunt.
+                </p>
+            </header>
+    
+            <ul class="tabs ancho  wow animate__animated animate__backInDown">
+                <li><a href="#tab1">All Work</a></li>
+                <li><a href="#tab2">Design</a></li>
+                <li><a href="#tab3">Developer</a></li>
+                <li><a href="#tab4">Service</a></li>
+            </ul>
+            <div class="tab_container  wow animate__animated animate__pulse">
+                <div class="tab_content" id="tab1">
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt1.jpg" data-fancybox="gallery" data-caption="Businnes Consulting">
+                            <img src="assets/images/pt1.jpg" alt="Proyecto 1">
+                        </a>
+                    </figure>
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt2.jpg" data-fancybox="gallery" data-caption="Portfolio & Branding">
+                            <img src="assets/images/pt2.jpg" alt="Proyecto 2">
+                        </a>
+                    </figure>
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt3.jpg" data-fancybox="gallery" data-caption="UI/UX Design">
+                            <img src="assets/images/pt3.jpg" alt="Proyecto 3">
+                        </a>
+                    </figure>
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt4.jpg" data-fancybox="gallery" data-caption="App Development">
+                            <img src="assets/images/pt4.jpg" alt="Proyecto 4">
+                        </a>
+                    </figure>
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt5.jpg" data-fancybox="gallery" data-caption="Data Management">
+                            <img src="assets/images/pt5.jpg" alt="Proyecto 5">
+                        </a>
+                    </figure>
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt6.jpg" data-fancybox="gallery" data-caption="Neural Networking">
+                            <img src="assets/images/pt6.jpg" alt="Proyecto 6">
+                        </a>
+                    </figure>
+                </div>
+    
+                <div class="tab_content  wow animate__animated animate__shakeX" id="tab2">
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt3.jpg" data-fancybox="gallery" data-caption="UI/UX Design">
+                            <img src="assets/images/pt3.jpg" alt="Proyecto 3">
+                        </a>
+                    </figure>
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt5.jpg" data-fancybox="gallery" data-caption="Data Management">
+                            <img src="assets/images/pt5.jpg" alt="Proyecto 5">
+                        </a>
+                    </figure>
+                </div>
+    
+                <div class="tab_content wow animate__animated animate__shakeX" id="tab3">
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt2.jpg" data-fancybox="gallery" data-caption="Portfolio & Branding">
+                            <img src="assets/images/pt2.jpg" alt="Proyecto 2">
+                        </a>
+                    </figure>
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt4.jpg" data-fancybox="gallery" data-caption="App Development">
+                            <img src="assets/images/pt4.jpg" alt="Proyecto 4">
+                        </a>
+                    </figure>
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt6.jpg" data-fancybox="gallery" data-caption="Neural Networking">
+                            <img src="assets/images/pt6.jpg" alt="Proyecto 6">
+                        </a>
+                    </figure>
+                </div>
+                <div class="tab_content wow animate__animated animate__shakeX" id="tab4">
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt1.jpg" data-fancybox="gallery" data-caption="Businnes Consulting">
+                            <img src="assets/images/pt1.jpg" alt="Proyecto 1">
+                        </a>
+                    </figure>
+                    <figure class="ficha_imagen">
+                        <a href="assets/images/pt2.jpg" data-fancybox="gallery" data-caption="Portfolio & Branding">
+                            <img src="assets/images/pt2.jpg" alt="Proyecto 2">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="encabezado_seccion ancho  wow animate__animated animate__backInDown">
+        <span>TESTIMONIALS</span>
+        <h2>What Clients Says</h2>
+        <div class="decorador">
+            <div class="linea_larga"></div>
+            <div class="punto"></div>
+            <div class="punto"></div>
+            <div class="punto"></div>
+        </div>
+    </div>
+
+    <!-- carrousel -->
+    <section id="carousel" class="section  wow animate__animated animate__pulse">
+        <div id="slide-container">
+            <article class="slide" data-slideIndex="0">
+                <figure class="imagen_sl">
+                    <img src="assets/images/testi1.jpg" alt="">
+
+                    <div class="comilla_testi"><i class="fa-solid fa-quote-left"></i></div>
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Provident ducimus a, 
+                    nostrum vel sequi aspernatur laboriosam 
+                    nobis blanditiis consequatur beatae esse! 
+                    Est, ex! At voluptatibus reprehenderit 
+                    earum, hic dignissimos quod labore sunt 
+                    assumenda natus. Ea, natus!
+                </p>
+                <h3>Maria Freada</h3>
+                <span>Web Developer</span>
+            </article>
+
+            <article class="slide" data-slideIndex="1">
+                <figure class="imagen_sl">
+                    <img src="assets/images/testi2.jpg" alt="">
+                    <div class="comilla_testi"><i class="fa-solid fa-quote-left"></i></div>
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Provident ducimus a, 
+                    nostrum vel sequi aspernatur laboriosam 
+                    nobis blanditiis consequatur beatae esse! 
+                    Est, ex! At voluptatibus reprehenderit 
+                    earum, hic dignissimos quod labore sunt 
+                    assumenda natus. Ea, natus!
+                </p>
+                <h3>Bread MC</h3>
+                <span>Founder</span>
+            </article>
+
+            <article class="slide" data-slideIndex="2">
+                <figure class="imagen_sl">
+                    <img src="assets/images/testi3.jpg" alt="">
+                    <div class="comilla_testi"><i class="fa-solid fa-quote-left"></i></div>
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Provident ducimus a, 
+                    nostrum vel sequi aspernatur laboriosam 
+                    nobis blanditiis consequatur beatae esse! 
+                    Est, ex! At voluptatibus reprehenderit 
+                    earum, hic dignissimos quod labore sunt 
+                    assumenda natus. Ea, natus!
+                </p>
+                <h3>Evana Doe</h3>
+                <span>Director</span>
+            </article>
+
+            <article class="slide" data-slideIndex="3">
+                <figure class="imagen_sl">
+                    <img src="assets/images/testi4.jpg" alt="">
+                    <div class="comilla_testi"><i class="fa-solid fa-quote-left"></i></div>
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Provident ducimus a, 
+                    nostrum vel sequi aspernatur laboriosam 
+                    nobis blanditiis consequatur beatae esse! 
+                    Est, ex! At voluptatibus reprehenderit 
+                    earum, hic dignissimos quod labore sunt 
+                    assumenda natus. Ea, natus!
+                </p>
+                <h3>John Smith</h3>
+                <span>IT Manager</span>
+            </article>
+        </div>
+
+        <div class="slide-buttons">
+            <a href="#" id="back-button" class="arrow">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+            </a>
+            <a href="#" id="forward-button" class="arrow">
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </a>
+        </div>
+
+        <div class="slide-indicators">
+            <span class="slide-indicator active"></span>
+            <span class="slide-indicator"></span>
+            <span class="slide-indicator"></span>
+            <span class="slide-indicator"></span>
+
+        </div>
+    </section>
+
+
+
+    <!-- modal -->
+    <section class="modal" id="modal">
+        <div class="contenidomodal">
+            <div class="info_modal ancho ">
+                <div class="cerrar_modal">
+                    <a href="#" id="btn-cerrar-modal" class="btn_cerrar_modal">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </a>
+                </div>
+
+                <div class="conte_modal_formulario">
+                    <div class="lado_izquierdo_formulario ">
+                        <h2>Contact Info</h2>
+                        
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Address</h3>
+                                <p>3 Belmont, Cumberland, United Kingdom</p>
+                            </div>
+                        </div>
+
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-solid fa-phone-flip"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Phones</h3>
+                                <p>+34783547620</p>
+                                <p>+17603131449</p>
+                            </div>
+                        </div>
+
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Email</h3>
+                                <p>@example.com</p>
+                                <p>@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="ficha_contacto_modal">
+                            <i class="fa-solid fa-business-time"></i>
+                            <div class="texto_ficha_modal">
+                                <h3>Opening Hours</h3>
+                                <p>Mon-Fri: 10:00-20:00</p>
+                                <p>Sat-Sun: 10:00-15:00</p>
+                            </div>
+                        </div>
+
+                   </div>
+                    <div class="lado_derecho_formulario">
+                        <div class="encabezado_seccion_izquierda">
+                            <span>CONTACT US</span>
+                            <h2>Get A Free Consultancy</h2>
+                            <div class="decorador_izquierdo">
+                                <div class="linea_larga"></div>
+                                <div class="punto"></div>
+                                <div class="punto"></div>
+                                <div class="punto"></div>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Qui quis harum perferendis
+                                eligendi consequatur saepe
+                                odit, non incidunt.
+                            </p>
+                        </div>
+                        <form action="" id="formulario_contacto" class="contenido_formulario">
+                            
+                            <div class="bloque_inputs">
+                                <input type="text" id="nombre" placeholder="Your Name" class="input_control">
+                                <input type="text" id="correo" placeholder="Your Email" class="input_control">
+                            </div>
+
+                            <div class="bloque_inputs">
+                                <input type="text" id="telefono" placeholder="Phone Number" class="input_control">
+                                <input type="text" id="asunto" placeholder="Subject" class="input_control">
+                            </div>
+
+                            <div class="bloque_inputs">
+                                <textarea id="mensaje" placeholder="Your Message" class="textarea_control"></textarea>
+                            </div>
+
+                            <button type="submit" id="btn-enviar-formulario" class="btn_enviar_formulario">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- scroll -->
+    <a href="#" class="btn_scroll" id="btn-up">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
+    <footer class="pie_pagina">
+        <div class="conte_pie ancho margen">
+            <figure class="logo_pie">
+              <img src="assets/images/logo-transparent.png" alt=""> 
+            </figure>
+            <div class="iconos_pie">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/wow.min.js"></script>
+    <script src="js/carrousel.js"></script>
+    <script src="js/fancybox_min.js"></script>
+    <script src="js/funciones.js"></script>
+
+
+</body>
+</html>
